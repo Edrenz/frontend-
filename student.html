@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/student.css" />
+    <script defer src="assets/script/script.js"></script>
+    <script defer src="assets/script/tabs.js"></script>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navlogo">
+          <img src="assets/images/logo.png" alt="logo" class="nav-branding" />
+          <p>Naguilian National High School - Dashboard Panel</p>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <i class="fa-solid fa-house"></i>
+            <a href="index.html" class="nav-link">School Nurse</a>
+          </li>
+          <li class="nav-item">
+            <i class="fa-solid fa-book"></i>
+            <a href="student_login.html" class="nav-link">Logout</a>
+          </li>
+          <li class="nav-item hide-lg">
+            <i class="fa-solid fa-book"></i>
+            <a href="#" class="nav-link">Edit Profile</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main class="main-container">
+      <div class="content-col-2">
+        <div class="user-info-col-2">
+          <img src="./assets/images/Ellipse_10.png" alt="" />
+          <p><strong>Full Name</strong></p>
+          <p><strong>Position</strong></p>
+        </div>
+        <div class="user-quotes">
+          <p>
+            Center of Excellence! Gearing towards Sustainable Quality Education
+          </p>
+        </div>
+        <div class="user-btn">
+          <button>Edit Profile</button>
+        </div>
+      </div>
+      <div class="content-col-1">
+        <div class="img-hero">
+          <img src="./assets/images/dashboardBg.png" alt="" />
+        </div>
+        <div class="main-col-content">
+          <div class="tab-btn">
+            <div class="profile-tab active">Profile</div>
+            <div class="viewform-tab">Class</div>
+          </div>
+
+          <div class="tab-section">
+            <div class="content active">
+              <div class="content-profile">
+                <p>GENERAL INFORMATION</p>
+                <div class="content-information">
+                  <div class="department">
+                    <img src="./assets/images/3.png" alt="" />
+                    <p><strong>Department</strong></p>
+                    <p>Non-teaching</p>
+                  </div>
+                  <div class="birthday">
+                    <img src="./assets/images/2.png" alt="" />
+                    <p><strong>Birthday</strong></p>
+                    <p>December 18, 2022</p>
+                  </div>
+                  <div class="user">
+                    <img src="./assets/images/user.png" alt="" />
+                    <p><strong>User</strong></p>
+                    <p>Nurse ll</p>
+                  </div>
+                </div>
+                <br />
+              </div>
+              <div class="contact-information">
+                <p>CONTACT INFORMATION</p>
+                <div class="user-info">
+                  <img src="./assets/images/user_icon.png" alt="" />
+                  <p><strong>Full Name:</strong> First name Ml. Lastname</p>
+                </div>
+                <div class="phone-info">
+                  <img src="./assets/images/phone_icon.png" alt="" />
+                  <p><strong>Phone Number:</strong> 0123465789</p>
+                </div>
+                <div class="address-info">
+                  <img src="./assets/images/loc_icon.png" alt="" />
+                  <p><strong>Address:</strong> Naguilian, La Union</p>
+                </div>
+                <div class="email-info">
+                  <img src="./assets/images/mail_icon.png" alt="" />
+                  <p><strong>Email:</strong> school.nurse@email.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="content table">
+              <div class="adv-class">
+                <p>Advisory Class <strong>10 - Faraday</strong></p>
+              </div>
+              <div class="form-details">
+                <table>
+                  <thead>
+                    <th>NAME</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1. A</td>
+                    </tr>
+                    <tr>
+                      <td>2. B</td>
+                    </tr>
+                    <tr>
+                      <td>3. B</td>
+                    </tr>
+                    <tr>
+                      <td>4. C</td>
+                    </tr>
+                    <tr>
+                      <td>5. D</td>
+                    </tr>
+                    <tr>
+                      <td>6. E</td>
+                    </tr>
+                    <tr>
+                      <td>7. F</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="modal-content">
+      <div class="content-modal">
+        <br />
+        <div class="sepator-modal"></div>
+        <br />
+        <label for="height" id="height">Height(Taas)</label>
+        <input type="text" name="height" />
+        <label for="weight" id="weight">Weight(Timbang)</label>
+        <input type="text" name="weight" />
+        <div class="btn-modal">
+          <button class="save">SAVE</button>
+          <button class="cancel">CANCEL</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
